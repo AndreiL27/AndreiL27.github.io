@@ -1,0 +1,421 @@
+/* Our App */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F6F6FA;
+}
+
+.app-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1350px;
+    margin: 40px auto;
+    background-color: #ffff;
+}
+
+/* Sydebar Styles */
+.sidebar-section{
+    background-color: #323b4c;
+}
+
+.sidebar-image{
+    margin-top: 40px;
+    border-radius: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.personal-details-container{
+    padding-left: 75px;
+    margin-top: 40px;
+    color: #ffff;
+}
+
+.personal-details-header{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sidebar-section-line{
+    margin-top: -35px;
+}
+
+.personal-details-table{
+    margin-left: 20px;
+}
+
+.phone-animation{
+    width: 35px;
+    margin-left: -45px;
+    margin-top: -10px;
+}
+
+.phone-section{
+    margin-left: -7px;
+}
+
+.personal-details-phone-header{
+    margin-top: -5px;
+    margin-bottom: 4px;
+    font-size: 21px;
+}
+
+.personal-details-phone{
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.email-animation{
+    width: 35px;
+    margin-left: -46px;
+    margin-top: 15px;
+}
+
+.email-section{
+    margin-left: -7px;
+    margin-top: 20px;
+}
+
+.linkedin-animation{
+    width: 35px;
+    margin-left: -46px;
+    margin-top: -7px;
+}
+
+.linkedin-section{
+    margin-left: -7px;
+}
+
+.personal-details-linkedin-header{
+    margin-bottom: 6px;
+    font-size: 21px;
+}
+
+.github-animation{
+    width: 45px;
+    margin-left: -52px;
+    margin-top: 10px;
+}
+
+.github-section{
+    margin-left: -7px;
+}
+
+.personal-details-github-header{
+    margin-bottom: 6px;
+    font-size: 21px;
+}
+
+.personal-details-email{
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.personal-details-LinkedIn{
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.personal-details-github{
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.soft-skills-section{
+    padding-left: 75px;
+    margin-top: 30px;
+    color: #ffff;
+}
+
+.soft-skills-header{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.soft-skills-list{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -5px;
+    margin-left: -22px;
+}
+
+.soft-skills-list-row{
+    margin-bottom: 10px;
+}
+
+.interests-section{
+    padding-left: 75px;
+    margin-top: 30px;
+    color: #ffff;
+}
+
+.interests-header{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.interests-list{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -5px;
+    margin-left: -22px;
+}
+
+.interests-list-row{
+    margin-bottom: 10px;
+}
+
+.language-section{
+    padding-left: 75px;
+    margin-top: 30px;
+    color: #ffff;
+}
+
+.language-header{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.language-type{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.language-stars{
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+/* Main content Styles */
+.right-side-container{
+    padding-left: 70px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 110px;
+}
+
+.about-me-section{
+    margin-top: 10px;
+}
+
+.about-me-name{
+    color: #323B4C;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.first-name{
+    font-weight: 500;
+}
+
+.about-me-description{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: -15px;
+    text-align: justify;    
+}
+
+.right-side-container-line{
+    color: #323B4C;
+    font-weight: 550;
+}
+
+.education-section{
+    margin-top: -15px;
+}
+
+.education-table{
+    margin-top: -30px;
+    margin-left: -23px;
+}
+
+.education-header{
+    color: #323B4C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.education-content-table{
+    margin-left: -12px;
+}
+
+.education-line{
+    margin-top: -80px;
+}
+
+.education-div{
+    display: flex;
+    margin-top: -10px;
+}
+
+.education-div-left{
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.education-div-right{
+margin-top: -13px;
+}
+
+.education-time-period{
+    color: #737373;
+    font-size: 20px;
+    margin-left: -15px;
+}
+
+.education-domain{
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+}
+
+.education-title{
+    color: #3f6592;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -16px;
+    text-align: left;
+}
+
+.education-div-2{
+    display: flex;
+    margin-top: 15px;
+}
+
+.education-div-left-2{
+    margin-left: 30px;
+    margin-right: 15px;
+    width: 213px;
+    text-align: left;
+}
+
+.education-div-right-2{
+    margin-top: -13px;
+}
+
+.right-side-container-line-2{
+    color: #323B4C;
+    font-weight: 550;
+    margin-top: -2px;
+}
+
+.tech-skills-section{
+    margin-top: -15px;
+}
+
+.tech-skills-table{
+    margin-top: -30px;
+    margin-left: -23px;
+}
+
+.tech-skills-header{
+    color: #323B4C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.tech-skills-content-table{
+    margin-left: -5px;
+}
+
+.tech-skills-line{
+    margin-top: -20px;
+}
+
+.tech-skills-content{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 250px;
+    padding-bottom: 18px;
+}
+
+.tech-skills-stars{
+    margin-top: -30px;
+}
+
+.courses-section{
+    margin-top: -15px;
+}
+
+.courses-table{
+    margin-top: -30px;
+    margin-left: -19px;
+}
+
+.courses-header{
+    color: #323B4C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.courses-content-table{
+    margin-left: -8px;
+}
+
+.courses-line{
+    margin-top: -70px;
+}
+
+.courses-name{
+    color: #000;
+    font-size: 20px;
+}
+
+.courses-institution{
+    color: #3f6592;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -16px;
+}
+
+.cours-div-1{
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: -8px;
+}
+
+.cours-div{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
